@@ -23,6 +23,8 @@ public class JavaTpc03 {
 		System.out.print(b.price + "\t");
 		System.out.print(b.company + "\t");
 		System.out.println(b.page + "\t");
+		
+		
 
 	}
 
