@@ -1,6 +1,6 @@
 package javaTcp;
 
-public class JavaTcp09 {
+public class JavaTpc09 {
 
 	public static void main(String[] args) {
 		
@@ -8,7 +8,7 @@ public class JavaTcp09 {
 		int b= 40;
 		
 		//int v= sum(a,b);
-		JavaTcp09 tpc = new JavaTcp09(); // heap area (힙) 생성
+		JavaTpc09 tpc = new JavaTpc09(); // heap area (힙) 생성
 		int v = tpc.sum(a, b);
 		System.out.println(v);
 	}
