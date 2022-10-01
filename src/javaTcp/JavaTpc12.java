@@ -14,6 +14,13 @@ public class JavaTpc12 {
 		System.out.print(b1.company + "\t");
 		System.out.println(b1.page);
 		
+		BookVO b3 = new BookVO("python", 13000, "경기도청", 600);
+		System.out.print(b3.title + "\t");
+		System.out.print(b3.price + "\t");
+		System.out.print(b3.company + "\t");
+		System.out.println(b3.page + "\t");
+		
+		
 		
 	}
 
