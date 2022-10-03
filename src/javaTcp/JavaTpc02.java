@@ -1,6 +1,6 @@
 package javaTcp;
 
-public class JavaTPc02 {
+public class JavaTpc02 {
 
 	public static void main(String[] args) {
 	
