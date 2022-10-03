@@ -7,9 +7,20 @@ public class BookDTO {
 	public String company;
 	public int page;
 	
-	// ë””í´íŠ¸ ìƒì„±ì ë©”ì„œë“œ(ìƒëµ) 
+	// µğÆúÆ® »ı¼ºÀÚ ¸Ş¼­µå(»ı·«) 
 	public BookDTO() {
-		//ê°ì²´ë¥¼ ìƒì„±í•˜ëŠ” ì‘ì—…ì„ í•œë‹¤.
+		//°´Ã¼¸¦ »ı¼ºÇÏ´Â ÀÛ¾÷À» ÇÑ´Ù.(±â°è¾îÄÚµå)
 	}
+
+	public BookDTO(String title, int price, String company, int page) {
+	
+		this.title = title;
+		this.price = price;
+		this.company = company;
+		this.page = page;
+	}
+	
+	
+	
 	
 }
