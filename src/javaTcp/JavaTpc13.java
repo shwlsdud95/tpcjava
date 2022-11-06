@@ -5,18 +5,18 @@ import kr.tpc.BookDTO;
 public class JavaTpc13 {
 
 	public static void main(String[] args) {
-		// Ã¥ -->  class(BookDTO) --> °´Ã¼ --> ÀÎ½ºÅÏ½º
-		String title = "½ºÇÁ¸µ";
+		// Ã¥ -->  class(BookDTO) --> ï¿½ï¿½Ã¼ --> ï¿½Î½ï¿½ï¿½Ï½ï¿½
+		String title = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
 		int price = 25000;
-		String company = "Á¦ÀÌÆà";
+		String company = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½";
 		int page = 900;
 		
-		// ¹è¿­Àº ÀÚ·áÇüÀÌ ÀÏÄ¡ÇÏ¿©¾ß °¡´É
-		// ¹è¿­ÀÌ ¾ÈµÈ´Ù¸é Á÷Á¢ ¼³°èÇØ¾ß ÇÑ´Ù.
+		// ï¿½è¿­ï¿½ï¿½ ï¿½Ú·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½Ï¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+		// ï¿½è¿­ï¿½ï¿½ ï¿½ÈµÈ´Ù¸ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ø¾ï¿½ ï¿½Ñ´ï¿½.
 		
-		BookDTO dto;	// dto(object: °´Ã¼) 
+		BookDTO dto;	// dto(object: ï¿½ï¿½Ã¼) 
 		
-		dto = new BookDTO(title, price, company, page);	// dto(Instance:ÀÎ½ºÅÏ½º)
+		dto = new BookDTO(title, price, company, page);	// dto(Instance:ï¿½Î½ï¿½ï¿½Ï½ï¿½)
 		
 		bookPrint(dto);
 

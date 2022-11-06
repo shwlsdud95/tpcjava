@@ -20,8 +20,6 @@ public class JavaTpc12 {
 		System.out.print(b3.company + "\t");
 		System.out.println(b3.page + "\t");
 		
-		
-		
 	}
 
 }
