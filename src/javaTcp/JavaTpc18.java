@@ -1,7 +1,7 @@
 
 package javaTcp;
 
-import com.google.gson.Gson;
+// import com.google.gson.Gson;
 
 import kr.tpc.BookVO;
 import kr.tpc.MyUtill;
@@ -23,6 +23,8 @@ public class JavaTpc18 {
 		
 		// 3. 다른 회사에서 만들어 놓은 class들 ...  API
 		// Gson --> json	https://mvnrepository.com/
+	
+		/*
 		Gson  g=new Gson();
 		
 		BookVO vo=new BookVO("자바", 13000, "진영", 800);
@@ -31,7 +33,7 @@ public class JavaTpc18 {
 		System.out.println(json);
 		
 		
-		
+		*/
 		
 	}
 
