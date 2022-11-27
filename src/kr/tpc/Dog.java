@@ -9,7 +9,6 @@ public class Dog extends Animal{	// eat() { ? }
 	// 재정의(override)
 		System.out.println("개처럼 먹다");
 		
-	}
-	
+	}	
 	
 }
